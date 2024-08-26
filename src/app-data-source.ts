@@ -13,7 +13,7 @@ export const myDataSource = new DataSource({
   username: process.env.DB_USERNAME,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DATABASE,
-  entities: [entitiesPath],
+  entities: ["src/entity/*.ts"],
   logging: true,
   synchronize: true,
 });
