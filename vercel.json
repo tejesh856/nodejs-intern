@@ -20,6 +20,7 @@
     "DB_PORT": "3306",
     "DB_USERNAME": "sql12727923",
     "DB_PASSWORD": "QVgVmxDUwJ",
-    "DB_DATABASE": "sql12727923"
+    "DB_DATABASE": "sql12727923",
+    "NODE_ENV": "production"
   }
 }
