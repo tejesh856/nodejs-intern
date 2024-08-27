@@ -9,6 +9,9 @@ app_data_source_1.myDataSource
     .initialize()
     .then(() => {
     console.log("Data Source has been initialized!");
+    app.get("/", (req, res) => {
+        res.send("Welcome to the Airport API!");
+    });
     app.use("/api/airports", airports_1.default);
     app.listen(3000, () => {
         console.log("Server is running on port 3000");
