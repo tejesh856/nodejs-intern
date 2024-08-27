@@ -11,7 +11,7 @@ myDataSource
   .then(() => {
     console.log("Data Source has been initialized!");
     app.get("/", (req: Request, res: Response) => {
-      res.send("Welcome to the Airport API!");
+      return res.send("Welcome to the Airport API!");
     });
     app.use("/api/airports", airports);
     app.listen(3000, () => {
